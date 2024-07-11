@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon " href="/Images/icon.png" type="image/x-icon">
+    <style>
+        body{
+            margin-left:20%;
+            margin-right:20%;
+            border:1px solid gold;
+            background-color: black;
+            color:whitesmoke;
+        }
+        header,main,footer{
+            margin-left: 20px;
+        }
+        header{
+            text-align: center;
+        }
+        nav li{
+            list-style: none;
+            display: inline;
+            margin-right:10px
+            
+        }
+        ul{
+            padding:10px;
+        }
+        nav li a{
+            text-decoration:none;
+            color: whitesmoke;
+        }
+        nav:hover{
+            background-color:rgba(24, 23, 23, 0.338);
+        }
+        a:hover{
+            background-color:rgba(37, 34, 34, 0.338);
+            
+        }
+        a:visited{
+            background-color: purple;
+        }
+        a:focus,a:active{
+            background-color: red;
+        }
+        header h1{
+            text-shadow: 1px 1px 10px  gold;
+            font-size: 75px;
+        }
+        footer{
+            text-align: center;
+        }
+     
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Boy</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Coffee.html">CoffeeLists</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <hr>
+    <main>
+        <h3>Contact</h3>
+        
+        
+        <form id="Form">
+            
+            
+            <p>
+                <label for="FirstName">FirstName :</label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Enter your FirstName" autocomplete="on" autofocus required>
+            </p>
+            <p>
+                <label for="LastName">LastName :</label>
+                <input type="text" name="LastName" id="LastName" placeholder="Enter your LastName"  autocomplete="on" required>
+            </p>
+            <p>
+                <label for="Email">YourEmail:</label>
+                <input type="email" name="Email" id="Email" placeholder="Enter your Email" required>
+
+            </p>
+            <p>
+                <label for="Message">Message:</label>
+                <textarea name="Message" id="Message" placeholder="Enter your Message..." cols="20" ></textarea>
+            </p>
+           
+            <center>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </center>
+
+
+        </form><hr>
+        <article id="address">
+            <h4>Primary Address</h4>
+            <address>
+                No 7,1<sup>st</sup>cross Road,<br>
+                KKS Nagar ,Vellore<br>
+                Tamil Nadu.
+            </address>
+            
+        </article>
+        <hr>
+        <article id="Personal-contact">
+            <details>
+                <Summary>Contact</Summary>
+                <p>
+                    <h6>Email: CoffeeBoy123@gmail.com</h6>
+                    <h6>Phone.No:9234567895</h6>
+                </p>
+            </details>
+        </article>
+    </main><hr>
+    <footer>
+        <p>All Rights are Reserved &copy; Coffee Boy 2024</p>
+    </footer>
+    
+</body>
+</html>
